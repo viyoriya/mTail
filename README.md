@@ -92,10 +92,11 @@ static const char *file_colors[] = {
 ## Example Output
 
 ```
-[2026-04-09T12:03:32Z INFO  poly_hft_arb] 🚀 Starting Optimized Delta-HFT Rust Bot...
-[2026-04-09T12:03:34Z WARN  poly_hft_arb::executor] ❌ Leg 1 (YES) failed to fill.
 [log1.log                 ] [INFO] Message from first file
 [log2.log                 ] [WARN] Message from second file
+[log1.log                 ] [INFO] Message from first file
+[log2.log                 ] [WARN] Message from second file
+
 ```
 
 ## License
