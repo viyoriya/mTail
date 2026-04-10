@@ -2,6 +2,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -O2
 TARGET = mTail
 SRC = mTail.c
+INSTALL_PATH = /usr/local/bin
 
 .PHONY: all clean install
 
@@ -14,7 +15,7 @@ clean:
 	rm -f $(TARGET)
 
 install: $(TARGET)
-	install -m 755 $(TARGET) /usr/local/bin/$(TARGET)
+	install -m 755 $(TARGET) $(INSTALL_PATH)/$(TARGET)
 
 uninstall:
-	rm -f /usr/local/bin/$(TARGET)
+	rm -f $(INSTALL_PATH)/$(TARGET)
