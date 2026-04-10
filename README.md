@@ -1,6 +1,7 @@
-# mTail - Log Tailing Utility
+# mTail - Log Tailing Utility [ AI generated code ]
 
 A fast, colorful log tailing utility for Linux with filtering capabilities.
+[ I used mTail.exe to monitor server logs its colourful and can filter based on keyword So generated this terminal based mTail ]
 
 ## Features
 
