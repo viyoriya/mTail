@@ -15,7 +15,7 @@ clean:
 	rm -f $(TARGET)
 
 install: $(TARGET)
-	install -m 755 $(TARGET) $(INSTALL_PATH)/$(TARGET)
+	sudo install -m 755 $(TARGET) $(INSTALL_PATH)/$(TARGET)
 
 uninstall:
-	rm -f $(INSTALL_PATH)/$(TARGET)
+	sudo rm -f $(INSTALL_PATH)/$(TARGET)
